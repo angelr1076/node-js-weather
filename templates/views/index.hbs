@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Weather</title>
+    <link rel="icon" href="/img/weather.png">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p>Search by city name or zip code to find your forecast.</p>
+
+        <form>
+            <input placeholder="Enter location or zip">
+            <button>Search</button>
+        </form>
+        <p id="location" class="location-display"></p>
+        <p id="forecast" class="forecast-display"></p>
+        <p id="alerts" class="alerts-display"></p>
+        {{!-- <img id="icon" class="image-icon" src=""> --}}
+        <canvas id="icon" class="icon-display"></canvas>
+    </div>
+
+
+    {{>footer}}
+    <script src="/js/app.js" async defer></script>
+    <script src="/js/skycons.js"></script>
+
+</body>
+
+</html>
