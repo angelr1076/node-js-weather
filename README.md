@@ -8,6 +8,6 @@ The app also uses handlebars. I used this to practice creating routes and have s
 
 ![Settings Window](./public/img/weather-page.png)
 
-![Settings Window](./src/images/resume.png)
+![Settings Window](./public/img/about-page.png)
 
-![Settings Window](./src/images/resume.png)
+![Settings Window](./public/img/portfolio-page.png)
