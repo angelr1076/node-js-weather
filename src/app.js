@@ -34,7 +34,7 @@ app.get("/about", (req, res) => {
     name: "Angel Rodriguez",
     about_me: "Junior Software Developer/Tech Enthusiast/Christ Follower",
     description:
-      "This app was designed to practice creating routes in Node.js and for the user (you) to check your forecast. I also used it to become more familiar with handlebars.",
+      "Node Weather was designed to practice creating routes in Node.js and for the user (you) to check your forecast. I also used it to become more familiar with handlebars.",
   });
 });
 

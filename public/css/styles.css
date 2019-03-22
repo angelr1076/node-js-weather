@@ -9,7 +9,8 @@ html {
 }
 
 body {
-  font-family: "Gloria Hallelujah", cursive;
+  font-family: "VT323", monospace;
+  font-size: 30px;
   max-width: 650px;
   margin: 0 auto;
   padding: 0 16px;
@@ -35,15 +36,6 @@ input {
   border: 1px solid #cccccc;
   padding: 8px;
   border-radius: 5px;
-}
-
-.location-display {
-  font-size: 30px;
-}
-
-.forecast-display,
-.alerts-display {
-  font-size: 20px;
 }
 
 .icon-display {
@@ -89,7 +81,7 @@ header {
 }
 
 header a {
-  margin-right: 80px;
+  margin-right: 40px;
   text-decoration: none;
   color: rgb(243, 237, 237);
 }
