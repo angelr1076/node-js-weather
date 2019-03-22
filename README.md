@@ -7,7 +7,7 @@ I added skycons to the app for effect. This adds a bit of animation and life to 
 Credit to UI designer and illustrator Steve Schoger from heropatterns.com for the layered svg and UI Gradients for the gradient background. I blended them both together.
 
 1. If you'd like to run the app locally, clone or download it first. 
-2. Once the app is cloned, from the terminal, make sure you're in the root terminal and type in "npm run start" without the quotes.
+2. Once the app is cloned, from the terminal, make sure you're in the root folder and type in "npm run start" without the quotes.
 3. Voila! You're up and running!
 
 ![Settings Window](./public/img/weather-page.png)
